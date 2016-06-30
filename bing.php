@@ -58,7 +58,6 @@ function getBing($ip) {
 
 	}
 	if(!empty($arr[1])) {
-		//多维数组去重复
 		foreach($res as $k=>$v) {
 			$titlearr[] = $v['title'];
 			$domainarr[] = $v['domain'];
